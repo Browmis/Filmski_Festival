@@ -1,0 +1,28 @@
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2\01cas01grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2\01cas01grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2\01cas01grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2\01cas01grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.pdb
+c:\Users\student\Documents\Visual Studio 2010\Projects\se2\02 cas grupa 1\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.dll
+c:\Users\student\Documents\Visual Studio 2010\Projects\se2\02 cas grupa 1\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.pdb
+c:\Users\student\Documents\Visual Studio 2010\Projects\se2\02 cas grupa 1\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.dll
+c:\Users\student\Documents\Visual Studio 2010\Projects\se2\02 cas grupa 1\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\SK 2017_18 SE2\03 cas prva grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\SK 2017_18 SE2\03 cas prva grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\SK 2017_18 SE2\03 cas prva grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\SK 2017_18 SE2\03 cas prva grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.pdb
+c:\LJUBICA\AAA_GUC\0001 ZIMSKI SEMESTAR\000 AAA aaa Skripta PREDAVANJA\09 CAS\TEMPLATE Net KOLOKVIJUM\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.dll
+c:\LJUBICA\AAA_GUC\0001 ZIMSKI SEMESTAR\000 AAA aaa Skripta PREDAVANJA\09 CAS\TEMPLATE Net KOLOKVIJUM\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.pdb
+c:\LJUBICA\AAA_GUC\0001 ZIMSKI SEMESTAR\000 AAA aaa Skripta PREDAVANJA\09 CAS\TEMPLATE Net KOLOKVIJUM\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.dll
+c:\LJUBICA\AAA_GUC\0001 ZIMSKI SEMESTAR\000 AAA aaa Skripta PREDAVANJA\09 CAS\TEMPLATE Net KOLOKVIJUM\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.pdb
+c:\LJUBICA\AAA_GUC\0001 ZIMSKI SEMESTAR\000 AAA aaa Skripta PREDAVANJA\09 CAS\TEMPLATE Net KOLOKVIJUM\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.csprojResolveAssemblyReference.cache
+c:\LJUBICA\AAA_GUC\0001 ZIMSKI SEMESTAR\000 AAA aaa Skripta PREDAVANJA\09 CAS\TEMPLATE Net KOLOKVIJUM\02 Tehnoloske klase\DBUtils\bin\Debug\DBUtils.dll
+c:\LJUBICA\AAA_GUC\0001 ZIMSKI SEMESTAR\000 AAA aaa Skripta PREDAVANJA\09 CAS\TEMPLATE Net KOLOKVIJUM\02 Tehnoloske klase\DBUtils\bin\Debug\DBUtils.pdb
+c:\LJUBICA\AAA_GUC\0001 ZIMSKI SEMESTAR\000 AAA aaa Skripta PREDAVANJA\09 CAS\TEMPLATE Net KOLOKVIJUM\02 Tehnoloske klase\DBUtils\obj\Debug\DBUtils.csprojResolveAssemblyReference.cache
+c:\LJUBICA\AAA_GUC\0001 ZIMSKI SEMESTAR\000 AAA aaa Skripta PREDAVANJA\09 CAS\TEMPLATE Net KOLOKVIJUM\02 Tehnoloske klase\DBUtils\obj\Debug\DBUtils.dll
+c:\LJUBICA\AAA_GUC\0001 ZIMSKI SEMESTAR\000 AAA aaa Skripta PREDAVANJA\09 CAS\TEMPLATE Net KOLOKVIJUM\02 Tehnoloske klase\DBUtils\obj\Debug\DBUtils.pdb
+C:\Users\Misa\Downloads\seminrskiPrevodioci\02 Tehnoloske klase\DBUtils\bin\Debug\DBUtils.dll
+C:\Users\Misa\Downloads\seminrskiPrevodioci\02 Tehnoloske klase\DBUtils\bin\Debug\DBUtils.pdb
+C:\Users\Misa\Downloads\seminrskiPrevodioci\02 Tehnoloske klase\DBUtils\obj\Debug\DBUtils.csproj.AssemblyReference.cache
+C:\Users\Misa\Downloads\seminrskiPrevodioci\02 Tehnoloske klase\DBUtils\obj\Debug\DBUtils.csproj.CoreCompileInputs.cache
+C:\Users\Misa\Downloads\seminrskiPrevodioci\02 Tehnoloske klase\DBUtils\obj\Debug\DBUtils.dll
+C:\Users\Misa\Downloads\seminrskiPrevodioci\02 Tehnoloske klase\DBUtils\obj\Debug\DBUtils.pdb
