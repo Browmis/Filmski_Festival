@@ -26,3 +26,9 @@ C:\Users\Misa\Downloads\seminrskiPrevodioci\02 Tehnoloske klase\DBUtils\obj\Debu
 C:\Users\Misa\Downloads\seminrskiPrevodioci\02 Tehnoloske klase\DBUtils\obj\Debug\DBUtils.csproj.CoreCompileInputs.cache
 C:\Users\Misa\Downloads\seminrskiPrevodioci\02 Tehnoloske klase\DBUtils\obj\Debug\DBUtils.dll
 C:\Users\Misa\Downloads\seminrskiPrevodioci\02 Tehnoloske klase\DBUtils\obj\Debug\DBUtils.pdb
+C:\Users\Misa\source\repos\Festival\DBUtils\DBUtils\bin\Debug\DBUtils.dll
+C:\Users\Misa\source\repos\Festival\DBUtils\DBUtils\bin\Debug\DBUtils.pdb
+C:\Users\Misa\source\repos\Festival\DBUtils\DBUtils\obj\Debug\DBUtils.csproj.AssemblyReference.cache
+C:\Users\Misa\source\repos\Festival\DBUtils\DBUtils\obj\Debug\DBUtils.csproj.CoreCompileInputs.cache
+C:\Users\Misa\source\repos\Festival\DBUtils\DBUtils\obj\Debug\DBUtils.dll
+C:\Users\Misa\source\repos\Festival\DBUtils\DBUtils\obj\Debug\DBUtils.pdb
