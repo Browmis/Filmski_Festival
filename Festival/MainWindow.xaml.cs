@@ -16,6 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Menu = Festival.windows.Menu;
 
 namespace Festival
 {
@@ -45,6 +46,7 @@ namespace Festival
             else
             {
                 MessageBox.Show("All ok", "Accept");
+                Menu _menu = new Menu(txtUsername.Text.ToString());
             }
         }
 
