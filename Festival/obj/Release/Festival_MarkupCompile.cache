@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\
+C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Release\
 Festival
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\App.xaml
 4-270396198
 
 91050325031
-15-1538205233
+15286755301
 MainWindow.xaml;userProfile.xaml;windows\Menu.xaml;windows\Registracion.xaml;
 
-False
+True
 

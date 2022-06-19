@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Menu" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="User profile" HorizontalAlignment="Left" Margin="640,32,0,0" VerticalAlignment="Top" Width="106" Height="71" RenderTransformOrigin="0.627,0.268" Click="Button_Click"/>
+
     </Grid>
 </Window>
