@@ -18,3 +18,5 @@ C:\Users\Misa\source\repos\Festival\Festival\obj\Debug\Festival.exe
 C:\Users\Misa\source\repos\Festival\Festival\obj\Debug\Festival.pdb
 C:\Users\Misa\source\repos\Festival\Festival\obj\Debug\windows\Registracion.g.cs
 C:\Users\Misa\source\repos\Festival\Festival\obj\Debug\windows\Registracion.baml
+C:\Users\Misa\source\repos\Festival\Festival\obj\Debug\windows\Menu.g.cs
+C:\Users\Misa\source\repos\Festival\Festival\obj\Debug\windows\Menu.baml

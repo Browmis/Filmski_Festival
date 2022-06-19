@@ -45,8 +45,9 @@ namespace Festival
             }
             else
             {
-                MessageBox.Show("All ok", "Accept");
-                Menu _menu = new Menu(txtUsername.Text.ToString());
+                Menu _menu = new Menu(txtUsername.Text.ToString(), _connection);
+                _menu.Show();
+                this.Close();
             }
         }
 
