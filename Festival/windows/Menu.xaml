@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Festival.windows"
         mc:Ignorable="d"
-        Title="Menu" Height="450" Width="800">
+        Title="Menu" Height="450" Width="800" Activated="Window_Activated">
     <Grid>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="10,20,0,0" TextWrapping="Wrap" Text="Genre:" VerticalAlignment="Top" Width="120" BorderBrush="Transparent" Background="Transparent" IsReadOnly="True"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="120" Name="cbxGenre" SelectionChanged="cbxGenre_SelectionChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="10,90,0,0" TextWrapping="Wrap" Text="Year:" VerticalAlignment="Top" Width="120" BorderBrush="Transparent" Background="Transparent" IsReadOnly="True"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="120" Name="cbxYear" SelectionChanged="cbxYear_SelectionChanged"/>
+        <ListBox HorizontalAlignment="Left" Height="419" Margin="302,0,0,0" VerticalAlignment="Top" Width="490" x:Name="listFilms"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" Name="txtFilm" TextChanged="txtFilm_TextChanged"/>
         <Button Content="User profile" HorizontalAlignment="Left" Margin="640,32,0,0" VerticalAlignment="Top" Width="106" Height="71" RenderTransformOrigin="0.627,0.268" Click="Button_Click"/>
 
     </Grid>
