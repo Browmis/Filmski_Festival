@@ -85,9 +85,8 @@ namespace Festival.windows
         private void txtFilm_TextChanged(object sender, TextChangedEventArgs e)
         {
             SelectFilm();
-            _connection = connection;
-        }
-
+        }        
+      
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             userProfile user = new userProfile(_username, _connection);
