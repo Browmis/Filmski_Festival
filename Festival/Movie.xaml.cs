@@ -60,7 +60,23 @@ namespace Festival
                 listFilms.Items.Add("Year: " + row[6].ToString()); 
                 listFilms.Items.Add("Story line: " + row[7].ToString());
                 listFilms.Items.Add("Genre: " + row[8].ToString());
+                listFilms.Items.Add("Grade: " + row[9].ToString());
             }
+            if(_films.Tables[0].Rows[0][6].ToString() == DateTime.Now.Year.ToString())
+            {
+                btVote.Visibility = Visibility.Visible;
+            }
+        }
+
+        private void btVote_Click(object sender, RoutedEventArgs e)
+        {
+         
+            string command = "SELECT grade FROM Film WHERE title = '" + _movie + "'";
+            DataSet _films = _film.Select(command);
+            int grade = (_films.Tables[0].Rows[0][0] == null) ? 0 : Convert.ToInt32(_films.Tables[0].Rows[0][0]);
+            grade++;
+            command = "UPDATE Film SET grade= " + grade  + "WHERE title = '" + _movie + "'";
+            _film.Azuriranje(command);
         }
     }
 }
