@@ -24,7 +24,6 @@ namespace Festival.windows
         private string _username;
         private KonekcijaClass _connection;
         private Table _film;
-
         public Menu()
         {
             InitializeComponent();
@@ -37,7 +36,6 @@ namespace Festival.windows
             _connection = connection;
             _film = new Table(_connection, "Film");
         }
-
         private void Window_Activated(object sender, EventArgs e)
         {
             _film.Open();
@@ -91,6 +89,14 @@ namespace Festival.windows
         {
             userProfile user = new userProfile(_username, _connection);
             user.Show();
+            this.Close();
+        }
+
+        private void selection(object sender, SelectionChangedEventArgs e)
+        {
+            string film  = listFilms.SelectedItem.ToString();
+            Movie movie = new Movie(_connection, film, _username);
+            movie.Show();
             this.Close();
         }
     }

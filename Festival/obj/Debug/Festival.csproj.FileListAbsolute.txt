@@ -44,3 +44,5 @@ C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\Festival.csproj.C
 C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\Festival.csproj.CopyComplete
 C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\Festival.exe
 C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\Festival.pdb
+C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\Movie.g.cs
+C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\Movie.baml
