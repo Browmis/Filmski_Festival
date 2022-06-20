@@ -56,11 +56,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Movie.xaml.cs">
+    <Compile Include="windows\Movie.xaml.cs">
       <DependentUpon>Movie.xaml</DependentUpon>
     </Compile>
     <Compile Include="Table.cs" />
-    <Compile Include="userProfile.xaml.cs">
+    <Compile Include="windows\userProfile.xaml.cs">
       <DependentUpon>userProfile.xaml</DependentUpon>
     </Compile>
     <Compile Include="windows\Menu.xaml.cs">
@@ -69,7 +69,7 @@
     <Compile Include="windows\Registracion.xaml.cs">
       <DependentUpon>Registracion.xaml</DependentUpon>
     </Compile>
-    <Page Include="MainWindow.xaml">
+    <Page Include="windows\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -77,15 +77,15 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="windows\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Movie.xaml">
+    <Page Include="windows\Movie.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="userProfile.xaml">
+    <Page Include="windows\userProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
