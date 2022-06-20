@@ -66,6 +66,17 @@ namespace Festival
             {
                 btVote.Visibility = Visibility.Visible;
             }
+            command = "SELECT DISTINCT year FROM Film";
+            DataSet year = _film.Select(command);
+            foreach (DataRow row in year.Tables[0].Rows)
+            {
+                if (row[0].ToString().Length > 0)
+                {
+                    cbYear.Items.Add(row[0].ToString());
+                    
+                }
+                    
+            }
         }
 
         private void btVote_Click(object sender, RoutedEventArgs e)
@@ -77,6 +88,20 @@ namespace Festival
             grade++;
             command = "UPDATE Film SET grade= " + grade  + "WHERE title = '" + _movie + "'";
             _film.Azuriranje(command);
+        }
+
+        private void cbYear_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            listBestFilms.Items.Clear();
+            string g = cbYear.SelectedItem.ToString();
+            int godina = Int32.Parse(g);
+            string command = "SELECT title, grade From Film WHERE year = " + godina + "ORDER BY grade DESC"; 
+            DataSet grades = _film.Select(command);
+            foreach (DataRow row in grades.Tables[0].Rows)
+            {
+                listBestFilms.Items.Add(row[0].ToString() + row[1].ToString());
+            }
+
         }
     }
 }
