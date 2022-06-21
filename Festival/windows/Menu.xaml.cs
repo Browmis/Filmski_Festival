@@ -99,5 +99,12 @@ namespace Festival.windows
             movie.Show();
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            BestMovies best = new BestMovies(_connection, _username);
+            best.Show();
+            this.Close();
+        }
     }
 }
