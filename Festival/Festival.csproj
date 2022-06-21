@@ -56,6 +56,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="windows\BestMovies.xaml.cs">
+      <DependentUpon>BestMovies.xaml</DependentUpon>
+    </Compile>
     <Compile Include="windows\Movie.xaml.cs">
       <DependentUpon>Movie.xaml</DependentUpon>
     </Compile>
@@ -69,6 +72,10 @@
     <Compile Include="windows\Registracion.xaml.cs">
       <DependentUpon>Registracion.xaml</DependentUpon>
     </Compile>
+    <Page Include="windows\BestMovies.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="windows\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -8,13 +8,8 @@
         Title="Movie" Height="450" Width="800">
     <Grid Loaded="loaded">
         <Button Content="Back" HorizontalAlignment="Left" Margin="21,366,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <ListBox HorizontalAlignment="Left" Height="190" Margin="196,10,0,0" Name="listFilms" VerticalAlignment="Top" Width="572"/>
-        <Button Content="Vote"  Name="btVote" Visibility="Hidden" HorizontalAlignment="Left" Margin="196,230,0,0" VerticalAlignment="Top" Width="75" Click="btVote_Click"/>
-        <ComboBox HorizontalAlignment="Left" Name="cbYear" Margin="648,227,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cbYear_SelectionChanged" >
-            <ComboBox Height="2" Width="15"/>
-        </ComboBox>
-        <TextBox HorizontalAlignment="Left" Height="22" Margin="470,228,0,0" TextWrapping="Wrap" Text="Rankiranje po godini: " VerticalAlignment="Top" Width="158"/>
-        <ListBox HorizontalAlignment="Left" Height="143" Margin="470,267,0,0" Name="listBestFilms" VerticalAlignment="Top" Width="298"/>
+        <ListBox HorizontalAlignment="Left" Height="360" Margin="196,10,0,0" Name="listFilms" VerticalAlignment="Top" Width="572"/>
+        <Button Content="Vote"  Name="btVote" Visibility="Hidden"  HorizontalAlignment="Left" Margin="46,36,0,0" VerticalAlignment="Top" Width="75" Click="btVote_Click"/>
 
     </Grid>
 </Window>
