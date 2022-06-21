@@ -52,3 +52,5 @@ C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\windows\BestMovie
 C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\windows\MainWindow.baml
 C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\windows\Movie.baml
 C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\windows\userProfile.baml
+C:\Users\Misa\source\repos\Festival\Festival\obj\Debug\windows\BestMovies.g.cs
+C:\Users\Misa\source\repos\Festival\Festival\obj\Debug\windows\BestMovies.baml

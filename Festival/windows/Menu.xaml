@@ -5,16 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Festival.windows"
         mc:Ignorable="d"
-        Title="Menu" Height="450" Width="800" Activated="Window_Activated">
+        Title="Menu" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <TextBox HorizontalAlignment="Left" Height="22" Margin="10,20,0,0" TextWrapping="Wrap" Text="Genre:" VerticalAlignment="Top" Width="120" BorderBrush="Transparent" Background="Transparent" IsReadOnly="True"/>
         <ComboBox HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="120" Name="cbxGenre" SelectionChanged="cbxGenre_SelectionChanged"/>
         <TextBox HorizontalAlignment="Left" Height="22" Margin="10,90,0,0" TextWrapping="Wrap" Text="Year:" VerticalAlignment="Top" Width="120" BorderBrush="Transparent" Background="Transparent" IsReadOnly="True"/>
         <ComboBox HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="120" Name="cbxYear" SelectionChanged="cbxYear_SelectionChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="10,160,0,0" TextWrapping="Wrap" Text="Director:" VerticalAlignment="Top" Width="120" BorderBrush="Transparent" Background="Transparent" IsReadOnly="True"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" Width="120" Name="cbxDirector" SelectionChanged="cbxDirector_SelectionChanged"/>
         <ListBox HorizontalAlignment="Left" Height="419" Margin="302,0,0,0" VerticalAlignment="Top" Width="490" x:Name="listFilms" SelectionChanged="selection"   />
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" Name="txtFilm" TextChanged="txtFilm_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" Name="txtFilm" TextChanged="txtFilm_TextChanged"/>
         <Button Content="User profile" HorizontalAlignment="Left" Margin="10,367,0,0" VerticalAlignment="Top" Width="91" Height="27" RenderTransformOrigin="0.627,0.268" Click="Button_Click"/>
-        <Button Content="Best movies" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click_1"/>
-
+        <Button Content="Best movies" HorizontalAlignment="Left" Margin="10,330,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click_1" RenderTransformOrigin="0.413,3.435"/>
     </Grid>
 </Window>

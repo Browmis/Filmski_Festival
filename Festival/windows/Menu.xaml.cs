@@ -36,25 +36,6 @@ namespace Festival.windows
             _connection = connection;
             _film = new Table(_connection, "Film");
         }
-        private void Window_Activated(object sender, EventArgs e)
-        {
-            _film.Open();
-            string command = "SELECT DISTINCT genre, year FROM Film";
-            DataSet _genresAndYears = _film.Select(command);
-            foreach (DataRow row in _genresAndYears.Tables[0].Rows)
-            {
-                if(row[0].ToString().Length > 0)
-                    cbxGenre.Items.Add(row[0].ToString());
-                if (row[1].ToString().Length > 0)
-                    cbxYear.Items.Add(row[1].ToString());
-            }
-            command = "SELECT * From Film";
-            DataSet _films = _film.Select(command);
-            foreach(DataRow row in _films.Tables[0].Rows)
-            {
-                listFilms.Items.Add(row[1].ToString());
-            }
-        }
 
         private void cbxGenre_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -68,15 +49,17 @@ namespace Festival.windows
 
         private void SelectFilm()
         {
-            string genre = (cbxGenre.SelectedItem == null) ? "%" : cbxGenre.SelectedItem.ToString();
-            string year = (cbxYear.SelectedItem == null) ? "%" : cbxYear.SelectedItem.ToString();
+            string[] forD = new string[] { "%", "%" };
+            string genre = (cbxGenre.SelectedItem == null || cbxGenre.SelectedItem.ToString().Length == 0) ? "%" : cbxGenre.SelectedItem.ToString();
+            string year = (cbxYear.SelectedItem == null || cbxYear.SelectedItem.ToString().Length == 0) ? "%" : cbxYear.SelectedItem.ToString();
             string film = (txtFilm.Text.Length == 0) ? "%" : "%" + txtFilm.Text.ToString() + "%";
-            string command = "SELECT * FROM Film where genre Like '" + genre + "' and year Like '" + year + "' and title Like '" + film + "'";
+            string[] director = (cbxDirector.SelectedItem == null || cbxDirector.SelectedItem.ToString().Length == 0) ? forD : cbxDirector.SelectedItem.ToString().Split(' ');
+            string command = "SELECT title FROM DirectorFilm where genre Like '" + genre + "' and year Like '" + year + "' and title Like '" + film + "'" + " and firstName like '%" + director[0] + "%' and secondName like '%" + director[1] + "%'";
             DataSet _films = _film.Select(command);
             listFilms.Items.Clear();
             foreach (DataRow row in _films.Tables[0].Rows)
             {
-                listFilms.Items.Add(row[1].ToString());
+                listFilms.Items.Add(row[0].ToString());
             }
         }
 
@@ -105,6 +88,47 @@ namespace Festival.windows
             BestMovies best = new BestMovies(_connection, _username);
             best.Show();
             this.Close();
+        }
+
+        private void cbxDirector_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            SelectFilm();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            cbxGenre.Items.Add("");
+            cbxYear.Items.Add("");
+            cbxDirector.Items.Add("");
+            _film.Open();
+            string command = "SELECT DISTINCT genre FROM DirectorFilm";
+            DataSet _films = _film.Select(command);
+            foreach (DataRow row in _films.Tables[0].Rows)
+            {
+                if (row[0].ToString().Length > 0)
+                    cbxGenre.Items.Add(row[0].ToString());
+            }
+            command = "SELECT DISTINCT year FROM DirectorFilm";
+            _films = _film.Select(command);
+            foreach (DataRow row in _films.Tables[0].Rows)
+            {
+                if (row[0].ToString().Length > 0)
+                    cbxYear.Items.Add(row[0].ToString());
+            }
+            command = "SELECT DISTINCT firstName, secondName FROM DirectorFilm";
+            _films = _film.Select(command);
+            foreach (DataRow row in _films.Tables[0].Rows)
+            {
+                if (row[0].ToString().Length > 0)
+                    cbxDirector.Items.Add(row[0].ToString().Replace(" ", "").Replace("\r", "").Replace("\n", "") + " " + row[1].ToString().Replace(" ", ""));
+            }
+            command = "SELECT DISTINCT title FROM DirectorFilm";
+            _films = _film.Select(command);
+            foreach (DataRow row in _films.Tables[0].Rows)
+            {
+                if (row[0].ToString().Length > 0)
+                    listFilms.Items.Add(row[0].ToString());
+            }
         }
     }
 }
