@@ -130,5 +130,13 @@ namespace Festival.windows
                     listFilms.Items.Add(row[0].ToString());
             }
         }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            _film.Close();
+            MainWindow window = new MainWindow();
+            window.Show();
+            this.Close();
+        }
     }
 }

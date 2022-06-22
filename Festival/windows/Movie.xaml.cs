@@ -56,7 +56,7 @@ namespace Festival
                 listFilms.Items.Add("Duration: " + row[2].ToString()); 
                 listFilms.Items.Add("Language: " + row[3].ToString()); 
                 listFilms.Items.Add("Country: " + row[4].ToString()); 
-                listFilms.Items.Add("Rating" + row[5].ToString()); 
+                listFilms.Items.Add("Rating: " + row[5].ToString()); 
                 listFilms.Items.Add("Year: " + row[6].ToString()); 
                 listFilms.Items.Add("Story line: " + row[7].ToString());
                 listFilms.Items.Add("Genre: " + row[8].ToString());

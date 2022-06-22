@@ -17,5 +17,6 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="10,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" Name="txtFilm" TextChanged="txtFilm_TextChanged"/>
         <Button Content="User profile" HorizontalAlignment="Left" Margin="10,367,0,0" VerticalAlignment="Top" Width="91" Height="27" RenderTransformOrigin="0.627,0.268" Click="Button_Click"/>
         <Button Content="Best movies" HorizontalAlignment="Left" Margin="10,330,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click_1" RenderTransformOrigin="0.413,3.435"/>
+        <Button Content="sign out" HorizontalAlignment="Left" Margin="196,374,0,0" VerticalAlignment="Top" Width="75" Name="btnExit" Click="btnExit_Click"/>
     </Grid>
 </Window>
