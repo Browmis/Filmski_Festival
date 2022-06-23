@@ -1,0 +1,22 @@
+﻿<Window x:Class="Festival.windows.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Festival.windows"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="10,20,0,0" TextWrapping="Wrap" Text="Žanr:" VerticalAlignment="Top" Width="120" BorderBrush="Transparent" Background="Transparent" IsReadOnly="True"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="120" Name="cbxzanr" SelectionChanged="cbxzanr_SelectionChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="10,90,0,0" TextWrapping="Wrap" Text="Godina:" VerticalAlignment="Top" Width="120" BorderBrush="Transparent" Background="Transparent" IsReadOnly="True"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="120" Name="cbxgodina" SelectionChanged="cbxgodina_SelectionChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="10,160,0,0" TextWrapping="Wrap" Text="Režiser:" VerticalAlignment="Top" Width="120" BorderBrush="Transparent" Background="Transparent" IsReadOnly="True"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" Width="120" Name="cbxreziser" SelectionChanged="cbxreziser_SelectionChanged"/>
+        <ListBox HorizontalAlignment="Left" Height="419" Margin="302,0,0,0" VerticalAlignment="Top" Width="490" x:Name="listFilms" SelectionChanged="selection"   />
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" Name="txtFilm" TextChanged="txtFilm_TextChanged"/>
+        <Button Content="Korisnički profil" HorizontalAlignment="Left" Margin="10,367,0,0" VerticalAlignment="Top" Width="91" Height="27" RenderTransformOrigin="0.627,0.268" Click="Button_Click"/>
+        <Button Content="Najbolji filmovi" HorizontalAlignment="Left" Margin="10,330,0,0" VerticalAlignment="Top" Width="91" Height="23" Click="Button_Click_1" RenderTransformOrigin="0.413,3.435"/>
+        <Button Content="Odjava" HorizontalAlignment="Left" Margin="196,374,0,0" VerticalAlignment="Top" Width="75" Name="btnExit" Click="btnExit_Click"/>
+    </Grid>
+</Window>

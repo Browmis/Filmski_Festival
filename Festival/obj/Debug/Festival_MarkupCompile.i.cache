@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\App.xaml
-61398553600
+61550968376
 
-122079459808
+12420557738
 15-1538205233
-windows\BestMovies.xaml;windows\MainWindow.xaml;windows\Movie.xaml;windows\userProfile.xaml;windows\Menu.xaml;windows\Registracion.xaml;
+windows\NajboljiFilmovi.xaml;windows\Prijava.xaml;windows\Film.xaml;windows\KorisnickiProfil.xaml;windows\Meni.xaml;windows\Registracija.xaml;
 
 True
 

@@ -56,27 +56,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="windows\BestMovies.xaml.cs">
-      <DependentUpon>BestMovies.xaml</DependentUpon>
+    <Compile Include="windows\NajboljiFilmovi.xaml.cs">
+      <DependentUpon>NajboljiFilmovi.xaml</DependentUpon>
     </Compile>
-    <Compile Include="windows\Movie.xaml.cs">
-      <DependentUpon>Movie.xaml</DependentUpon>
+    <Compile Include="windows\Film.xaml.cs">
+      <DependentUpon>Film.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Table.cs" />
-    <Compile Include="windows\userProfile.xaml.cs">
-      <DependentUpon>userProfile.xaml</DependentUpon>
+    <Compile Include="Tabela.cs" />
+    <Compile Include="windows\KorisnickiProfil.xaml.cs">
+      <DependentUpon>KorisnickiProfil.xaml</DependentUpon>
     </Compile>
-    <Compile Include="windows\Menu.xaml.cs">
-      <DependentUpon>Menu.xaml</DependentUpon>
+    <Compile Include="windows\Meni.xaml.cs">
+      <DependentUpon>Meni.xaml</DependentUpon>
     </Compile>
-    <Compile Include="windows\Registracion.xaml.cs">
-      <DependentUpon>Registracion.xaml</DependentUpon>
+    <Compile Include="windows\Registracija.xaml.cs">
+      <DependentUpon>Registracija.xaml</DependentUpon>
     </Compile>
-    <Page Include="windows\BestMovies.xaml">
+    <Page Include="windows\NajboljiFilmovi.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="windows\MainWindow.xaml">
+    <Page Include="windows\Prijava.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -84,23 +84,23 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="windows\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="windows\Prijava.xaml.cs">
+      <DependentUpon>Prijava.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="windows\Movie.xaml">
+    <Page Include="windows\Film.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="windows\userProfile.xaml">
+    <Page Include="windows\KorisnickiProfil.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="windows\Menu.xaml">
+    <Page Include="windows\Meni.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="windows\Registracion.xaml">
+    <Page Include="windows\Registracija.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Misa\source\repos\Festival\Festival\obj\Debug\
+C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\obj\Debug\
 Festival
 none
 false
 DEBUG;TRACE
-C:\Users\Misa\source\repos\Festival\Festival\App.xaml
-61398553600
+C:\Users\Ivan\Source\Repos\Filmski_Festival\Festival\App.xaml
+61550968376
 
-11-1373148121
-151684945780
-windows\BestMovies.xaml;windows\MainWindow.xaml;windows\Movie.xaml;windows\userProfile.xaml;windows\Menu.xaml;windows\Registracion.xaml;
+111262917105
+15-1538205233
+windows\NajboljiFilmovi.xaml;windows\Prijava.xaml;windows\Film.xaml;windows\KorisnickiProfil.xaml;windows\Meni.xaml;windows\Registracija.xaml;
 
 False
 
